@@ -1,0 +1,329 @@
+/*header for all the pages.........................................................*/
+
+.mainbar{
+	background-color: #fff;
+	box-shadow:  2px 2px 5px rgba(0,0,255,.25);
+	/*background-color: #ff8c00;*/
+	/*border-bottom: 2px solid #ff8c00;*/
+}
+@font-face{
+	font-family: cookie;
+	src: url(../fonts/Cookie-Regular.ttf);
+}
+@font-face{
+	font-family: subjectivity-medium;
+	src: url(../fonts/SubjectivitySerif-Medium.otf); 
+}
+@font-face{
+	font-family: subjectivity;
+	src: url(../fonts/SubjectivitySerif-Regular.otf); 
+}
+.navstyle{
+	font-family: subjectivity;
+	color: #777;
+	font-size: 18px;
+	
+}
+.navpad{
+	padding-left: 25px;
+	/*padding-right: 12px;*/
+}
+.navstyle:hover{
+	/*background-color: #ff8c00;*/
+	/*border-radius: 5px;*/
+	/*color: #fff;*/
+	color: #ff8c00;
+}
+/*.active{
+
+}*/
+
+/*homepage styles...................................................................*/
+
+
+/*carosel.......*/
+/*.cardim{
+	border-bottom: 1px solid black;
+	min-height: 320px;
+}
+.addicar{
+	color: #000;
+}*/
+
+.secdimg{
+	background-image: url(../image/wallpap.jpg);
+	/*background-color: black;*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+	border-bottom: 1px solid grey;
+	/*margin-top: 50px;*/
+}
+.pose{
+	text-align: center;
+	font-family: subjectivity;
+	color: #333333;
+	/*font-size: 22px;*/
+}
+.foopad{
+	padding-top: 15px;
+}
+.iconic{
+	background-color: #fff;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 5px solid rgba(220,220,220,.5);*/
+}
+.sandwitch{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.yesbank{
+	background-color: #fafafa;
+}
+.card{
+	width:100%;
+	min-height: 280px;
+	z-index: -1;
+	/*background-color: orange;*/
+}
+.spacex{
+	padding-bottom: 50px;
+}
+.fontybeta{
+	font-family: subjectivity-medium;
+}
+.text-body{
+	z-index: 1;
+	background-color: #ff8c00;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: -25px;
+	/*padding: 5px 0px;*/
+	padding-top: 10px;
+	padding-bottom: 3px;
+	/*border: px solid rgba(220,220,220,.5);*/
+}
+.backcol{
+	background-color: #ff8c00;
+}
+.addimg{
+	text-align: center;
+	/*height:100%;*/
+	/*height: 100%;*/
+	padding-bottom: 30px;
+	border: none;
+	align-self: center;
+}
+.addimgi{
+	text-align: center;
+	/*height:135px;
+	height: 135px;*/
+	padding-bottom: 30px;
+	border: none;
+	align-self: center;
+}
+.textdeco{
+	text-align: center;
+	font-family: subjectivity-medium;
+}
+.jcoll{
+	padding: 0px;
+	margin: 0px;
+}
+.rung{
+	/*background-color: #f3f3f3;*/
+	font-family: subjectivity;
+	color: #333;
+	font-size: 19px;
+}
+/*all about footer...................................................................................*/
+.footerstyle{
+	border-top: 2px solid #fab027;
+}
+.footfun{
+	padding: 50px 0px;
+}
+.footblockst1{
+	font-family: subjectivity;
+	color: #333;
+}
+.subject{
+	font-family: subjectivity-medium;
+}
+.nost{
+	list-style: none;
+	padding: 0px 0px 0px 20px;
+	font-size: 19px;
+}
+.tdnc{
+	color: #333;
+}
+.tdnc:hover{
+	text-decoration: none;
+	color: #ff8c00;
+	padding-left: 10px;
+}
+.nost2{
+	list-style: none;
+	font-size: 19px;
+	margin-top: 40px;
+}
+.stylock{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	list-style: none;
+	font-size: 19px;
+	text-align: center;
+	/*margin-bottom: 0px;*/
+	padding: 0px;
+}
+.footfit{
+	width: 50px;
+	height: 50px;
+	margin: 0px 20px;
+}
+.footfit:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.mappo{
+	width: 100%;
+	height: 450px;
+}
+/*end of footer*/
+
+/*Contact page...........................................................*/
+.secimgcon{
+	background-image: url(../image/wallpap.jpg);
+	/*background-color: black;*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 300px;
+	width: 100%;
+	/*border-bottom: 1px solid grey;*/
+	margin-top: 50px;
+}
+.scimg{
+	margin-top: 12px;
+	margin-bottom: auto;
+}
+#slidetop{
+	cursor: pointer;
+	position: fixed;
+	padding: 15 px;
+	color: #fff;
+	bottom:30px;
+	right:30px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #2F4F4F;
+	opacity: .6;
+	border-radius: 50%;
+	text-align: center;
+	z-index: 10;
+	display: none;
+}
+#slidetop:hover{
+	opacity: 1;
+}
+.impo{
+	margin-top: 20px;
+	border: solid black;
+	border-width: 0px 0px 3px 3px;
+	padding: 5px;
+	display: inline-block;
+	transform: rotate(135deg);
+}
+
+
+
+
+/*..................form.............*/
+.formpad1{
+	/*padding: 0px 200px;*/
+}
+.formpad2{
+	/*padding-right: 0px;*/
+}
+.newform{
+	margin-bottom: 20px;
+	box-shadow: 0.5px 0.5px 3px #696969;
+	width: 100%;
+	font-size: 19px;
+	padding :8px;
+	border: .5px solid rgba(220,220,220,.5);
+}
+.bigform{
+	box-shadow: 0.5px 0.5px 3px #696969;
+	width: 100%;
+	padding :8px;
+	font-size: 19px;
+	/*border: .5px solid rgba(220,220,220,.5);*/	
+}
+.tada1{
+	border: .5px solid rgba(220,220,220,.5);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.buttst{
+	cursor: pointer;
+	border: .5px solid #ff8c00;
+	background-color: #ff8c00;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.pudte{
+	
+	/*background-color:#ff8c0066; */
+	color: #949494;
+	/*padding: 10px;*/
+	margin-top: 20px;
+	width: 100%;
+}
+.formbag{
+	/*background-color: #ff8c0066;
+	padding: 15px;*/
+}
+
+.headstyle{
+	font-family: subjectivity;
+	text-align: center;
+	color: #333333;
+	padding-bottom: 30px;
+}
+.styzz{
+	background-color: #ff8c00;
+	padding: 10px;
+	border-radius: 10px;
+}
+.backim{
+	background-color: #fafafa;
+	padding-left: 50px;
+	padding-right: 50px;	
+}
+.imgst{
+	margin-top: 50px;
+	text-align: center;
+}
+.aservi{
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid rgba(220,220,220,.5);
+}
+.aservi:hover{
+	opacity: .5;
+}
+.sizoo{
+	width: 6px;
+}
